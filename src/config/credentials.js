@@ -16,19 +16,7 @@ if (!process.env.CLIENT_EMAIL || !privateKey) {
 }
 
 export const credentials = {
-  // type: "service_account",
-  // project_id: process.env.PROJECT_ID,
-  // private_key_id: "3e8df944dacbabe2f8ba751ce98737683b2ed5b7",
-  // private_key: privateKey,
-  // client_email: process.env.CLIENT_EMAIL,
-  // client_id: "106730398351852703194",
-  // auth_uri: "https://accounts.google.com/o/oauth2/auth",
-  // token_uri: "https://oauth2.googleapis.com/token",
-  // auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/v1/certs",
-  // client_x509_cert_url: `https://www.googleapis.com/robot/v1/metadata/x509/${encodeURIComponent(
-  //   process.env.CLIENT_EMAIL
-  // )}`,
-  // universe_domain: "googleapis.com",
+  
 
   type: "service_account",
   project_id: "document-ai-444403",
